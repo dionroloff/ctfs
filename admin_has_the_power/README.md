@@ -1,4 +1,4 @@
-#Admin has the power
+# Admin has the power
 
 The goal of this task is edit a session cookie.
 
