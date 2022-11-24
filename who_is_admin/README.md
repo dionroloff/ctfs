@@ -19,12 +19,12 @@ I try this with my URL...
 
 ![2](png/2.png)
 
-This doesn’t give me much info to work with but I want to keep exploring the possibility of using a SQL injection. I open up SQLMAP and run it at the default level 1 (out of 5). Below is the output, telling us that on a basic test the “id” parameter may be injectable and that the backend database management system is SQLite:
+This doesn’t give me much info to work with but I want to keep exploring the possibility of using a SQL injection. I open up SQLMAP and run it at the default level 1 (out of 5). Below is the output, telling us that on a basic test the `id` parameter may be injectable and that the backend database management system is SQLite:
 
 ![3](png/3.png)
 
-It finally spits out the following table of users, their respective ids, anmes, roles, emails, and hased passwords.
+It finally spits out the following table of users, their respective ids, names, roles, emails, and hashed passwords.
 
 ![4](png/4.png)
 
-Out of all twenty users, one is an admin. I try `Ryan` as the flag, which it wasn’t. Typing the email `ryan@secret.org` I have more luck and get the flag.
+Out of all twenty users I try the only admin email `ryan@secret.org` and this is the flag.
