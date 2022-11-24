@@ -6,9 +6,9 @@ For terminal commands I'm using Kali Linux and when needed, Python 3.10.5. Some 
 
 ### Challenges:
 
-- [Hide Data]()
-- [Hash3rror]()
-- [RSA101]()
+- [Hide Data](https://github.com/dionroloff/ctfs/tree/main/cryptography#hide-data)
+- [Hash3rror](https://github.com/dionroloff/ctfs/tree/main/cryptography#hash3rror)
+- [RSA101](https://github.com/dionroloff/ctfs/tree/main/cryptography#rsa101)
 
 
 ## Hide Data
@@ -70,17 +70,3 @@ $ openssl pkeyutl -decrypt -in cipher -out plain -inkey key.pem
 $ cat plain 
 flag{RSA_nice_try}
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
