@@ -1,6 +1,7 @@
 # Admin has the power
 
 __(Easy, Web Security, 50 Points)__
+[Challenge Link](https://cybertalents.com/challenges/web/admin-has-the-power)
 
 The goal of this task is edit a session cookie.
 
