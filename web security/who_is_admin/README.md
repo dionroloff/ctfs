@@ -23,7 +23,7 @@ I try this with my URL...
 
 ![2](png/2.png)
 
-This doesn’t give me much info to work with but I want to keep exploring the possibility of using a SQL injection. I open up SQLMAP and run it at the default level 1 (out of 5). Below is the output, telling us that on a basic test the “id” parameter may be injectable and that the backend database management system is SQLite:
+This doesn’t give me much info to work with but I want to keep exploring the possibility of using a SQL injection. I open up SQLMAP and run it at the default level 1 (out of 5). Below is the output, telling us that on a basic test the `id` parameter may be injectable and that the backend database management system is SQLite:
 
 ![3](png/3.png)
 
