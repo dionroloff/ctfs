@@ -1,5 +1,9 @@
 # who is admin
 
+__(Medium, Web Security, 100 Points)__
+
+[Challenge Link](https://cybertalents.com/challenges/web/whoisadmin).
+
 >“Your mission is to know who's the admin running this website by knowing his email.”
 
 The landing page when I visit the CTF link contains three photos. Each has a title, a caption beneath the picture, and a link “Read More”.  I visit all three links and notice the URL pattern is `.../shownews.php?id=1`
@@ -23,8 +27,8 @@ This doesn’t give me much info to work with but I want to keep exploring the p
 
 ![3](png/3.png)
 
-It finally spits out the following table of users, their respective ids, anmes, roles, emails, and hased passwords.
+It finally spits out the following table of users, their respective ids, names, roles, emails, and hashed passwords.
 
 ![4](png/4.png)
 
-Out of all twenty users, one is an admin. I try `Ryan` as the flag, which it wasn’t. Typing the email `ryan@secret.org` I have more luck and get the flag.
+Out of all twenty users I try the only admin email `ryan@secret.org` and this is the flag.

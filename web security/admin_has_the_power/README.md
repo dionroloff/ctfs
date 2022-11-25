@@ -1,5 +1,7 @@
 # Admin has the power
 
+__(Easy, Web Security, 50 Points)__
+
 The goal of this task is edit a session cookie.
 
 From [CyberTalents](https://cybertalents.com/learn/introduction-to-cybersecurity/lessons/5-cookies):
