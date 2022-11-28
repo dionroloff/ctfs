@@ -8,13 +8,13 @@ __(Easy, Network Security, 50 Points)__
 
 We're given a pcap file, which I open in Wireshark and right away notice that every packet in the file is an ARP broadcast request, and that they are coming from the same VMware source. I also notice that every single frame is the same length, 42 bytes.
 
-![Full View](./png/full view.png)
+![Full View](./png/full_view.png)
 
 This would be very unusual in the real world, but for the sake of the CTF, I’m not seeing any difference in the packets and it’s not exactly clear what I’m looking for. I double click the first packet to inspect the packet details and the various network layer information. Nothing stands out.
 
 I do find it odd that the opcodes for each packet are “Unknown.” Address Resolution Protocol frames are only one of two types, a request or a reply. For an ARP request, the opcode is 1, for a reply, the opcode is 2. The fact that each packet here has an "Unknown" opcode is strange:
 
-![Unknown Opcode](./png/unknown opcode.png)
+![Unknown Opcode](./png/unknown_opcode.png)
 
 And this is where I start to see a difference in the packets. In Wireshark, clicking on any of the fields in the packet details pane will highlight by default the associated hexadecimal values in the hexdump beneath that (i.e., the packet bytes pane).
 
